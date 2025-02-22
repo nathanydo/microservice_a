@@ -25,14 +25,14 @@ This microservice calculates the workout streaks of the user. The main program w
 - `workout_date.txt`:
 
   ```
-  10-01-2023 (make sure date is formated as month-day-year)
-  10-02-2023 (make sure new date rewrites the date above)
-  10-03-2023 (same as before)
+  10-01-2023  # make sure date is formated as month-day-year
+  10-02-2023  # make sure new date rewrites the date above
+  10-03-2023
   ```
 
 - `streak_results.txt`:
   ```
-  Current Streak: 3 days
+  3
   ```
 
 ## UML Diagram
