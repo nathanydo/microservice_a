@@ -4,7 +4,7 @@ import time
 
 def read_date_from_file():
     try:
-        with open('workout_dates.txt', 'r') as file:
+        with open('workout_date.txt', 'r') as file:
             date_string = file.readline().strip()  # Read just the first line
             match = re.search(r'\d+-\d+-\d{4}', date_string)
             if match:
