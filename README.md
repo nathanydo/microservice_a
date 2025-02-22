@@ -35,6 +35,10 @@ This microservice calculates the workout streaks of the user. The main program w
   Current Streak: 3 days
   ```
 
+## UML Diagram
+
+![DIAGRAM](./UML%20Diagram.jpg)
+
 ## Dependencies
 
 - Python 3.x (or any other language used)
