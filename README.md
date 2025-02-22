@@ -1,5 +1,7 @@
 # Workout Streak Microservice
 
+## Communication Contract
+
 This microservice calculates the workout streaks of the user. The main program will write into `workout_date.txt`, where the microservice will read and calculate if the user has a streak. It will then write the streak into `streak_results.txt`.
 
 ## Files
