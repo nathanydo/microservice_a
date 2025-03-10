@@ -9,37 +9,49 @@ This microservice calculates the workout streaks of the user. The main program w
 - `workout_date.txt`: Contains the dates of the user's workouts.
 - `streak_results.txt`: Contains the calculated workout streaks.
 
-## How It Works
+## How to Request Data
 
-1. The main program writes workout dates into `workout_date.txt`.
-2. The microservice reads the dates from `workout_date.txt`.
-3. The microservice calculates the user's workout streak.
-4. The microservice writes the streak result into `streak_results.txt`.
-
-## Usage
-
-1. Ensure `workout_date.txt` is populated with workout dates.
-2. Run the microservice to calculate the streak.
-3. Check `streak_results.txt` for the streak information.
-
-## Example
+To request data, write into workout_dates.txt:
 
 - `workout_date.txt`:
 
   ```
   10-01-2023  # make sure date is formated as month-day-year
-  10-02-2023  # make sure new date rewrites the date above
-  10-03-2023
   ```
 
-- `streak_results.txt`:
+Example code:
+
+```
+with open('workout_date.txt', 'w') as file:
+  file.write("7-20-2022")
+```
+
+## How to Recieve Data
+
+To recieve data, read from streaks_results.txt
+
+- `streak_result.txt
+
   ```
-  3
+  1
   ```
+
+Example code:
+
+```
+with open('streak_results.txt', 'r') as file:
+  results = file.readline().strip()
+```
+
+## Setup Instruction
+
+1. Clone files from git repository
+2. Run microservice.py (python3 microservice.py)
+3. Write into workout_results.txt and read from streak_results.txt
 
 ## UML Diagram
 
-![DIAGRAM](./UML%20Diagram.jpg)
+![DIAGRAM](<./UML%20Diagram(2).jpg>)
 
 ## Dependencies
 

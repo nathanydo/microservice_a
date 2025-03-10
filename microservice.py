@@ -41,11 +41,9 @@ def main():
             # Write the streak to a file for main program to read
             with open('streak_results.txt', 'w') as streak_file:
                 streak_file.write(str(current_streak))
-            
-            print(f"Current streak: {current_streak}")
         
         # Wait for 5 seconds before checking again (can lower the time if you want faster response)
-        time.sleep(5)
+        time.sleep(1)
 
 if __name__ == "__main__":
     main()
