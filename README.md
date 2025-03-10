@@ -51,7 +51,7 @@ with open('streak_results.txt', 'r') as file:
 
 ## UML Diagram
 
-![DIAGRAM](<./UML%20Diagram(2).jpg>)
+![DIAGRAM](<./UML%20Diagram (2).jpg>)
 
 ## Dependencies
 
